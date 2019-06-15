@@ -1,4 +1,4 @@
-# HW3_MachineLearning
+# HW3 MachineLearning
 
 The goal of this homework is to learn how to leverage pretrained convnets and to use some visualization techniques. You will work with the data set cats vs dogs and use the pretrained convnet VGG19.
 
