@@ -4,7 +4,7 @@ This project uses pretrained convolutional neural networks (convnets) to practic
 
 The convnet used is VGG19, which is a network which classifies images into either the category "cat" or "dog", i.e. the network detects if the photo is of a cat or a dog.
 
-##This project incorporates these steps:
+##This project incorporates these steps:##
 ###Step 1:
   Feature extraction with data augmentation.
 
