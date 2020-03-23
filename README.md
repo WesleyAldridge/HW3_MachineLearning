@@ -1,17 +1,18 @@
 # HW3 MachineLearning
 
-The goal of this homework is to learn how to leverage pretrained convnets and to use some visualization techniques. You will work with the data set cats vs dogs and use the pretrained convnet VGG19.
+This project uses pretrained convolutional neural networks (convnets) to practice data visualization techniques.
 
-Experiment with different classifiers, trying to maximize the validation accuracy. You only need to show one classifier.
+The convnet used is VGG19, which is a network which classifies images into either the category "cat" or "dog", i.e. the network detects if the photo is of a cat or a dog.
 
-## Problem 1
-Do feature extraction with data augmentation.
+##This project incorporates these steps:
+###Step 1:
+  Feature extraction with data augmentation.
 
-## Problem 2
-Do fine-tuning with data augmentation.
+###Step 2:
+  Fine-tune with data augmentation.
 
-## Problem 3
-Visualize heatmaps of class activation for the the model obtained in Problem 2.
+###Step 3:
+  Visualize heatmaps of class activation for the the model obtained in Step 2.
 
-## Problem 4
-Build an activation model that takes as input an image and produces as output the activation of the last conv layer of the model obtained in Problem 2. Using this activation model obtain the corresponding activations for the validation images. Apply t-SNE visualization to these activations to see how well the convnet separates cats from dogs.
+###Step 4:
+  Build an activation model that takes as input an image and produces as output the activation of the last conv layer of the model obtained   in Step 2. Using this activation model obtain the corresponding activations for the validation images. Apply t-SNE visualization to    these activations to see how well the convnet separates cats from dogs.
